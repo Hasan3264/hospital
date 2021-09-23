@@ -1,0 +1,576 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+
+}
+
+.clr {
+    clear: both;
+}
+@font-face {
+    font-family: MYRIADPRO-REGULAR;
+    src: url(../pro/MYRIADPRO-REGULAR.OTF);
+}
+/* ==================================================================================================
+              common css end
+====================================================================================================== */
+/* ==================================================================================================
+              header part start
+====================================================================================================== */
+#header-part {
+
+    padding: 13px 0 17px;
+}
+
+.header-part1 {
+    display: flex;
+}
+
+.header-part1 .logo-part {
+    width: 83px;
+}
+
+.header-part1 .name-part {
+    width: 665px;
+}
+
+
+.header-part1 .number-part {
+    width: 222px;
+}
+
+.header-part1 .name-part h2 {
+    color: #3ca2a2;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 88px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.header-part1 .number-part p {
+    color: #b76262;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: right;
+    line-height: 88px;
+}
+
+
+/* ==================================================================================================
+              header part end
+====================================================================================================== */
+/* =========================================================
+   manu part start
+============================================================== */
+#manu-part {
+background: linear-gradient(to top, #ae1010 0%, #cf0511 100%);
+}
+
+.manu {
+    display: flex;
+}
+
+.main-manu {
+    width: 855px;
+}
+
+.manu-logo {
+    width: 115px;
+    text-align: right;
+}
+
+.main-manu ul {
+    display: flex;
+    /* justify contant */
+}
+
+.main-manu ul li a {
+    padding: 20px 15px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+
+}
+
+.main-manu ul li a:hover {
+    background: #f18d26;
+}
+
+.manu-logo a {
+	width: 27px;
+	width: 27px;
+	background: #fff;
+	color: #bf0a11;
+	line-height: 27px;
+	text-align: center;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	margin-top: 16px;
+    font-size: 14px;
+}
+.manu-logo a:hover {
+background: #f18d26;
+color: #fff;
+}
+/* ============================================================
+  manu part end
+=================================================================== */
+
+/* =========================================================
+       banner part start
+============================================================== */
+#banner-part{
+    background: url(../images/banner-img-1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 77px 0;
+}
+.banner{
+    display: flex;
+    position: relative;
+}
+.banner-text {
+	width: 460px;
+}
+.banner-text h1{
+   color: #215a6d;
+   font-size: 36px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+}
+.banner-text h1 span{
+    font-size: 48px;
+    font-weight: 600;
+    font-style: italic;
+    
+}
+.banner-img{
+    width: 592px;
+    position: absolute;
+    right: 0;
+    bottom: -77px;
+}
+.banner-img img{
+    width: 100%;
+    max-width: 100%;
+}
+.banner-text p {
+    margin: 12px 0 40px 0;
+	color: #215a6d;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	padding-right: 172px;
+}
+.banner-text a {
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	padding: 0 26px;
+	line-height: 42px;
+	background-color: #92c7a3;
+	border-radius: 21px;
+	-webkit-border-radius: 21px;
+	-moz-border-radius: 21px;
+	-ms-border-radius: 21px;
+	-o-border-radius: 21px;
+}
+/* ============================================================
+       banner part end
+=================================================================== */
+
+
+
+/* =========================================================
+                  hospital 2nd part start
+============================================================== */
+ #ser-part{
+     padding: 40px 0;
+ }
+ .hospital-2nd-col {
+	width: 31%;
+	margin-right: 40px;
+	text-align: center;
+}
+ .hospital-2nd-row{
+     display: flex;
+ }
+ .hospital-2nd-col h3{
+     color: #3ca2a2;
+     font-size: 24px;
+     font-weight: 600;
+     font-family: 'Open Sans', sans-serif;
+      padding-bottom: 25px;
+
+ }              
+ .hospital-2nd-col p{
+     color: #215a6d;
+     font-size: 13px;
+     font-family: 'Open Sans', sans-serif;
+     line-height: 21px;
+     padding-top: 12px;
+ }
+ .hospital-2nd-col a{
+     color: #92c7a3;
+     font-size: 14px;
+     text-transform: capitalize;
+     font-family: 'Open Sans', sans-serif;
+   padding-top: 18px;
+ }
+ .hospital-2nd-col a i{
+     color: #bf0a11;
+     
+ }
+ .hospital-2nd-col:last-child{
+     margin-right: 0;
+ }
+/* ============================================================
+               hospital 2nd part end
+=================================================================== */
+/* =========================================================
+    hospital 3rd part start
+============================================================== */
+#hospital-3rd-part{
+    background-color: #dfece6;
+    padding: 28px 0;
+}
+.row-3rd-part{
+    display: flex;
+}
+.col-3rd-part {
+	width: 49%;
+	margin-right: 27px;
+}
+.col-3rd-part:last-child{
+    margin-right: 0;
+}
+.common-heading h2{
+    color: #215a6d;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    padding-bottom: 12px;
+}
+.common-heading h2::after{
+     position: absolute;
+     content:'';
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 1px;
+     background: #ffffff;
+    
+}
+.common-heading h2::before{
+     position: absolute;
+     content:'';
+     left: 0;
+     bottom: -1px;
+     width: 52px;
+     height: 2px;
+     background: #ae1010;
+     z-index: 1;
+    
+}
+.col-3rd-part-text p{
+     margin-left: 16px;
+    color: #3ca2a2;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 40px;
+    border-bottom: 1px solid #3ca2a2;
+ 
+}
+.col-3rd-part-text{
+    margin-top: 30px;
+    background-color: #ffffff;
+}
+.col-3rd-part a{
+    color: #ae1010;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+margin-top: 19px;
+}
+.col-3rd-part-text p i{
+       color: #ffffff;
+       font-size: 13px;
+       line-height: 40px;
+       padding: 0 16px;
+       background-color: #cf0511;
+       float: right;
+}
+.img-part-3rd{
+    margin-left: 10px;
+}
+.img-part-3rd img{
+    margin-top: 35px;
+}
+/* ============================================================
+    hospital 3rd part end
+=================================================================== */
+/* =========================================================
+             hospital  4th part part start
+============================================================== */
+     .row-4th-part{
+         padding-top: 38px;
+         display: flex;
+     }
+     
+     .col-4th-part {
+        width: 32%;
+        margin-right: 24px;
+    }
+     .col-4th-part:last-child{
+         margin-right: 0;
+     }
+     .hd-part-4th h2{
+         margin-bottom: 32px;
+     }
+  .hd-part-4th h2::after{
+      background: #eaeaea;
+  }
+.text-4th-part h3{
+color: #3ca2a2;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+}
+.text-4th-part p{
+    color: #215a6d;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    }
+    .for-4th-border{
+        padding-bottom: 60px;
+        position: relative;
+    }
+    .for-4th-border::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  left: 0;
+  bottom: 30px;
+  background: #eaeaea;
+    }
+    .col-4th-part a{
+        color: #ae1010;
+        margin-top: 35px;
+        font-family: MYRIADPRO-REGULAR;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .col-4th-part-mid a {
+        margin-top: 44px;
+    }
+    .col-4th-part-mid ul li{
+        color: #215a6d;
+        font-weight: 400;
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 29px;
+    }
+    .col-4th-part-mid ul li i{
+        color: #ae1010;
+        font-size: 13px;
+    }
+    .gel-img ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gel-img ul li{
+        width: 40%;
+      margin-right: 30px;
+      margin-bottom: 10px;
+    }
+     .gel-img ul li img{
+       width: 100%;
+       height: 100%;
+      
+    }
+    .gel-img ul li:nth-child(2),
+    .gel-img ul li:nth-child(4){
+        margin-right: 0;
+    }
+/* ============================================================
+            hospital  4th part part end
+=================================================================== */
+/* =========================================================
+                    hospital 5th part part start
+============================================================== */
+          #doctors-part{
+              margin-top: 40px;
+          }
+          .doctors-part-row{
+              display: flex;
+          }
+          .doctors-part-col {
+            width: 32%;
+            margin-right: 30px;
+        }
+          .doctors-part-col h3{
+            color: #3ca2a2;
+            font-size: 18px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            margin-top: 16px;
+          }
+          .doctors-part-col p{
+            color: #878787;
+            font-size: 13px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            margin-bottom: 4px;
+          }
+          .doctors-part-col p:last-child{
+              color: #cf0511;
+          }
+          .doctors-part-col:last-child{
+              margin-right: 0;
+          }
+          
+/* ============================================================
+                   hospital 5th partpart end
+=================================================================== */
+
+
+
+/* =========================================================
+                       fotter part start
+============================================================== */
+
+#fotter{
+    margin-top: 80px;
+}
+.footer-part-up{
+    padding: 20px 0;
+    background-color: #222222;
+}
+.row-fotter-head{
+    display: flex;
+
+}
+.footer-logo{
+    width: 83px;
+}
+.fotter-head-text{
+    width: 887px;
+}
+.fotter-head-text h2{
+    font-family: MYRIADPRO-REGULAR;
+    color: #3ca2a2;
+    font-weight: 600;
+    font-size: 26px;
+    margin-left: 17px;
+    line-height: 87px;
+}
+
+.row-fotter-end{
+    display: flex;
+ padding-bottom: 45px;
+
+}
+.col-fotter-end {
+	width: 28%;
+
+
+ 
+}
+.col-fotter-end h3{
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #3ca2a2;
+    text-transform: capitalize;
+    
+}
+.col-fotter-end  ul li{
+    margin-top: 12px;
+    
+}
+.col-fotter-end  ul li a{
+    
+    text-transform: capitalize;
+    color: #c6ded9;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.col-fotter-end  ul li a  i{
+    color: #ae1010;
+    font-size: 13px;
+    margin-right: 5px;
+    }
+    .col-fotter-end  ul li i{
+        color: #ae1010;
+        font-size: 13px;
+        margin-right: 5px;
+    }
+    .row-fotter-end .col-fotter-end:last-child {
+        float: right;
+        width: 22.6%;
+        margin-right: 0;
+    }
+
+
+
+
+.footer-part-bottom{
+    background-color: #cf0511;
+    padding: 18px 0 14px;
+}
+.part-bottom-fotter h6{
+    color: #c6ded9;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    font-family:  MYRIADPRO-REGULAR;
+}
+/* ============================================================
+                      fotter part end
+=================================================================== */
